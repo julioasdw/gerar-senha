@@ -6,25 +6,37 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background: #248745 url(img/fundo.png);
+}
+
+#logo {
+    width: 300px;
 }
 
 #main-container, #details-container {
     width: 80%;
     max-width: 600px;
     text-align: center;
+    padding: 10px;
+}
+
+#details-container {
+    background-color: white;
+    border-radius: 5px;
+    max-width: 500px;
 }
 
 .guiche {
     background-color: #f0f0f0;
     padding: 15px;
-    margin: 10px 0;
+    margin: 10px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .guiche:hover {
-    background-color: #dcdcdc;
+    background-color: #c8c8c8;
 }
 
 button {
@@ -39,4 +51,8 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+#services {
+    
 }

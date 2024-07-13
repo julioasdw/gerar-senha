@@ -64,6 +64,6 @@ function printTicket() {
     printWindow.document.write(`<pre>${ticket}</pre>`);
     printWindow.document.close();
     printWindow.focus();  // Garante que a janela de impressão está em foco
-    printWindow.print();
-    printWindow.close();  // Fecha a janela de impressão automaticamente
+    //printWindow.print();
+    //printWindow.close();  // Fecha a janela de impressão automaticamente
 }
